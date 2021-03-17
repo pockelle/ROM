@@ -6,7 +6,7 @@ import asyncio
 import json
 from ColorHandler import adbHandler, colorHandler, textHandler
 
-with open('..\\Setting.json','r',encoding='utf8') as jFile:
+with open('C:\\Users\\Nino\\PycharmProjects\\pythonProject\\Script\\Setting.json','r',encoding='utf8') as jFile:
     jdata = json.load(jFile)
 
 def searchMem(name):
