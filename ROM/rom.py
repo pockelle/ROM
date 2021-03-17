@@ -65,7 +65,7 @@ async def Do():
     adb.listDevices()
 
     # input the port
-    print("輸入模擬器port123123")
+    print("輸入模擬器port")
     UserPort = input()
 
     # connect
