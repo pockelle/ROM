@@ -6,7 +6,7 @@ import asyncio
 import json
 from ColorHandler import adbHandler, colorHandler, textHandler
 
-with open('C:\\Users\\Nino\\PycharmProjects\\pythonProject\\Script\\Setting.json','r',encoding='utf8') as jFile:
+with open('..\\Setting.json','r',encoding='utf8') as jFile:
     jdata = json.load(jFile)
 
 def searchMem(name):
@@ -50,7 +50,7 @@ def getTheWaittingTime(inputTime):
 def getWaittingMin(Min):
     m = 1800 - Min
     return m
-123
+
 # [交易所]ROM BOT
 TOKEN = jdata['ROM Bot TOKEN']
 bot = discord.Client()
